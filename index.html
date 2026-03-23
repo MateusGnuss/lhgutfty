@@ -2,37 +2,61 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Biografia - Mateus Gomes Nuss</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             max-width: 600px;
             margin: 40px auto;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #f4f4f7;
         }
         .container {
             background-color: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         h1 {
             color: #2c3e50;
             text-align: center;
-            border-bottom: 2px solid #3498db;
+            border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 25px;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-size: 1.1em;
         }
         strong {
             color: #3498db;
+            display: inline-block;
+            width: 120px; /* Alinha os textos após os dois pontos */
+        }
+        .skills-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .skills-list li {
+            margin-bottom: 5px;
+            color: #444;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -44,11 +68,17 @@
         <ul>
             <li><strong>Nome:</strong> Mateus Gomes Nuss</li>
             <li><strong>Idade:</strong> 19 Anos</li>
-            <li><strong>Nacionalidade:</strong> Santa Catarina / Brusque</li>
+            <li><strong>Naturalidade:</strong> Brusque, Santa Catarina</li>
             <li><strong>Educação:</strong> Cursando Sistemas de Informação na Unifebe</li>
         </ul>
 
         <hr>
+
+        <h3>Competências</h3>
+        <ul class="skills-list">
+            <li>Ensino médio completo</li>
+            <li>Inglês avançado (Jumper)</li>
+        </ul>
 
         <h3>Sobre mim</h3>
         <p>Sou um cara que gosta de jogar, ouvir músicas e conversar.</p>
@@ -56,4 +86,3 @@
 
 </body>
 </html>
-
